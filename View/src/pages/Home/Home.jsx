@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             
             <div className='welcomeHome'>
-                <h1>Seja Bem vindo!</h1>
+                <h1>Seja Bem vindo(a)!</h1>
                 <div className='welcomeHomeComponents'> 
                     <Link to="/loginPaciente" className='welcomeHomeComponents-item' style={{ textDecoration: 'none', color: 'black' }}>
                         <div className='welcomeHomeComponents-component'>

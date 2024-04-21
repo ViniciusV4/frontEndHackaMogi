@@ -1,5 +1,5 @@
 .welcomeHome {
-    background-color: #102F8A;
+    background: url(background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
@@ -14,9 +14,9 @@
 
 .welcomeHome h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    color: #F26F21;
+    font-weight: 700;
+    font-size: 70px;
+    color: #ffffff;
     margin-bottom: 100px;
 }
 

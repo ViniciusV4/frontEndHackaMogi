@@ -20,9 +20,9 @@ const ChatBot = () => {
     // Envia a mensagem para a API
     const requestBody = JSON.stringify({ message: inputValue });
       console.log('Mensagem enviada para a API:', requestBody);
-    {/*try {
+    try {
       
-      const response = await fetch('sua_url_da_api', {
+      const response = await fetch('http://localhost:5000', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -40,7 +40,7 @@ const ChatBot = () => {
       // Adiciona a resposta da API
       setChatMessages(prevMessages => [
         ...prevMessages,
-        { type: 'incoming', text: data.response }
+        { type: 'incoming', text: data.message }
       ]);
 
       // Limpa o campo de entrada
@@ -48,7 +48,7 @@ const ChatBot = () => {
     } catch (error) {
       console.error('Erro ao enviar mensagem:', error);
     }
-  */}
+  
   };
 
   const handleInputChange = (event) => {

@@ -5,6 +5,7 @@ import Sobre from "./pages/Sobre/Sobre.jsx";
 import Usuario from "./pages/Usuario/Usuario.jsx";
 import Login from "./pages/LoginDoutor/Login.jsx";
 import LoginPaciente from "./pages/LoginPaciente/LoginPaciente.jsx";
+import PacientePrincipal from "./pages/PacientePrincipal/PacientePrincipal.jsx";
 
 const AppRoutes = () => {
    return(
@@ -14,7 +15,8 @@ const AppRoutes = () => {
                <Route path="/sobre" element={<Sobre />} />
                <Route path="/usuario" element={<Usuario />} />
                <Route path="/loginDoutor" element={<Login />} />
-               <Route path="/loginPaciente" element={<LoginPaciente />} />
+               <Route path="/loginPaciente" element={<LoginPaciente />} />      
+               <Route path="/PacientePrincipal" element={<PacientePrincipal />} />      
            </Routes>
        </BrowserRouter>
    );

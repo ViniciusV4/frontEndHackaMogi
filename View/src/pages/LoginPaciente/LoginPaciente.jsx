@@ -10,7 +10,7 @@ function LoginPaciente() {
 
     const handleLogin = () => {
         // Simplesmente navega para a próxima página
-        navigate('/'); // Redireciona para a próxima página
+        navigate('/PacientePrincipal'); // Redireciona para a próxima página
     };
 
     return (
